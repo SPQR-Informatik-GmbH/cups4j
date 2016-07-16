@@ -20,7 +20,7 @@ import de.spqrinfo.cups4j.operations.cups.CupsGetPrintersOperation;
 import de.spqrinfo.cups4j.operations.cups.CupsMoveJobOperation;
 import de.spqrinfo.cups4j.operations.ipp.*;
 
-import java.net.URL;
+
 import java.util.List;
 
 /**
@@ -133,7 +133,7 @@ public class CupsClient {
      * @return printer
      * @throws Exception
      */
-    public CupsPrinter getPrinter(URL printerURL) throws Exception {
+    public CupsPrinter getPrinter(String printerURL) throws Exception {
         List<CupsPrinter> printers = getPrinters();
         CupsPrinter printer = null;
         for (CupsPrinter p : printers) {
