@@ -9,12 +9,55 @@
 
     <packaging>pom</packaging>
     <name>cups4j-parent</name>
+    <description></description>
 
     <modules>
         <module>vppserver</module>
         <module>cups4j</module>
         <module>cups4jcli</module>
     </modules>
+
+    <issueManagement>
+        <url>https://github.com/SPQR-Informatik-GmbH/cups4j/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>GPL-3.0</name>
+            <url>https://opensource.org/licenses/GPL-3.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/SPQR-Informatik-GmbH/cups4j</url>
+        <connection>scm:git:git://github.com/SPQR-Informatik-GmbH/cups4j.git</connection>
+        <developerConnection>scm:git:git@github.com:SPQR-Informatik-GmbH/cups4j.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Harald Weyhing</name>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Sarah Windler Burri</name>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Marcus Geiger</name>
+            <organization>SPQR Informatik GmbH</organization>
+            <url>https://github.com/bwolf/</url>
+            <roles>
+                <role>maintainer</role>
+            </roles>
+        </developer>
+    </developers>
 
     <dependencies>
         <dependency>
