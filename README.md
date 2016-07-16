@@ -16,6 +16,7 @@ The following changes where applied to the upstream source 0.6.4:
 - change package to `de.sprinfo.cups4j`
 - fix class loading by replacing explicit classLoader usage to load resources
 - create test case to ensure loading of xml schema files succeeds
+- split apart projects into { cups4j, cups4cli, vppserver }
 
 # Licesnse
 
