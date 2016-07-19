@@ -1,3 +1,7 @@
+# Description
+
+A Java library for printing with [IPP](https://en.wikipedia.org/wiki/Internet_Printing_Protocol) to a [CUPS](https://en.wikipedia.org/wiki/CUPS) server.
+
 # Preamble
 
 CUPS library for Java, forked and mavenized from http://www.cups4j.org/ version 0.6.4. The reason for the fork is that the original project is unmaintained since 2013, and no maven artifact exists to use the library.
