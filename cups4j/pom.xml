@@ -5,17 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>de.spqrinfo</groupId>
+        <groupId>de.spqr-info</groupId>
         <artifactId>cups4j-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>de.spqrinfo</groupId>
+    <groupId>de.spqr-info</groupId>
     <artifactId>cups4j</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>cups4j</name>
-
-    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,8 +24,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>de.spqrinfo</groupId>
-            <artifactId>vppserver</artifactId>
+            <groupId>de.spqr-info</groupId>
+            <artifactId>cups4j-vppserver</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
