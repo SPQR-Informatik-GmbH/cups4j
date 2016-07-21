@@ -9,7 +9,7 @@
 
     <packaging>pom</packaging>
     <name>cups4j-parent</name>
-    <description></description>
+    <description>A Java library for printing with IPP to a CUPS server.</description>
 
     <modules>
         <module>vppserver</module>
