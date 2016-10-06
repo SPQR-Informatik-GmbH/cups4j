@@ -24,6 +24,6 @@ The following changes where applied to the upstream source 0.6.4:
 - fix class loading by replacing explicit classLoader usage to load resources
 - create test case to ensure loading of xml schema files succeeds
 
-# Licesnse
+# License
 
-The original licesnse applies which is [GPL-3.0](https://opensource.org/licenses/GPL-3.0).
+The original license applies which is [LGPL-3.0](https://opensource.org/licenses/GPL-3.0), ([cups4j/license](http://www.cups4j.org/index.php?option=com_content&view=article&id=8&Itemid=10)).
