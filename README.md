@@ -10,7 +10,7 @@ The original upstream developers have not been contacted to approve this fork, s
 
 # Release mapping
 
-- Upstream release 0.6.4 maps directly to de.spqrinfo.cups4j:1.0-RELEASE
+- Upstream release 0.6.4 maps directly to de.spqrinfo.cups4j:1.1-RELEASE
 
 # Changes
 
@@ -27,3 +27,14 @@ The following changes where applied to the upstream source 0.6.4:
 # License
 
 The original license applies which is [LGPL-3.0](https://opensource.org/licenses/GPL-3.0), ([cups4j/license](http://www.cups4j.org/index.php?option=com_content&view=article&id=8&Itemid=10)).
+
+# Notes on releasing
+
+- Follow the [OSSRH guide](http://central.sonatype.org/pages/apache-maven.html).
+- Change the versions of the project with the help of the Maven versions plugin `mvn versions:set -DnewVersion=1.2.3`.
+- Ensure that the build passes without deployment.
+- Perform release `mvn clean deploy -Prelease`.
+- Commit changes.
+- Tag the release in git.
+- Change versions of the project to the new SNAPSHOT release.
+- Commit changes.
