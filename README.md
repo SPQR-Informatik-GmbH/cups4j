@@ -34,7 +34,7 @@ The original license applies which is [LGPL-3.0](https://opensource.org/licenses
 - Change the versions of the project with the help of the Maven versions plugin `mvn versions:set -DnewVersion=1.2.3`.
 - Ensure that the build passes without deployment.
 - Perform release `mvn clean deploy -Prelease`.
-- Commit changes.
+- Commit and push changes.
 - Tag the release in git.
-- Change versions of the project to the new SNAPSHOT release.
-- Commit changes.
+- Change versions of the project to the new SNAPSHOT release `mvn versions:set -DnewVersion=1.1-SNAPSHOT`.
+- Commit and push changes.
