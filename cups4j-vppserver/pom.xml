@@ -7,12 +7,12 @@
     <parent>
         <groupId>de.spqr-info</groupId>
         <artifactId>cups4j-parent</artifactId>
-        <version>1.1</version>
+        <version>1.2-SNAPSHOT</version>
     </parent>
 
     <groupId>de.spqr-info</groupId>
     <artifactId>cups4j-vppserver</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <name>cups4j-vppserver</name>
 
     <properties>

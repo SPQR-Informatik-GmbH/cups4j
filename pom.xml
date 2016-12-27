@@ -5,7 +5,7 @@
 
     <groupId>de.spqr-info</groupId>
     <artifactId>cups4j-parent</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     <name>cups4j-parent</name>
