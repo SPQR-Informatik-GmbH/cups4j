@@ -24,9 +24,25 @@ The following changes where applied to the upstream source 0.6.4:
 - fix class loading by replacing explicit classLoader usage to load resources
 - create test case to ensure loading of xml schema files succeeds
 
+# Using the library
+
+Cups4j is available on Maven central:
+
+```xml
+        <dependency>
+            <groupId>de.spqr-info</groupId>
+            <artifactId>cups4j</artifactId>
+            <version>1.1</version>
+        </dependency>
+```
+
 # License
 
 The original license applies which is [LGPL-3.0](https://opensource.org/licenses/GPL-3.0), ([cups4j/license](http://www.cups4j.org/index.php?option=com_content&view=article&id=8&Itemid=10)).
+
+# Issue tracking
+
+Feel free to report here any issues regarding the Maven packaging. All other issues are better handled on upstream (if any).
 
 # Notes on releasing
 
